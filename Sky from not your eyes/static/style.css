@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #121212;
+    color: #fff;
+    line-height: 1.8; /* Increase line height for more space between lines */
+}
+
+h1 {
+    color: #fff;
+}
+
+input[type="text"] {
+    background-color: #222;
+    color: #fff;
+    border: 2px solid #444;
+}
+
+input[type="submit"] {
+    background-color: #007bff;
+    border: 2px solid #0056b2;
+}
+
+input[type="submit"]:hover {
+    background-color: #0066d4;
+}
+
+h2 {
+    color: #fff;
+}
+
+p {
+    color: #ccc;
+    line-height: 2; /* Increase line height for more space between lines */
+}
+.button-container {
+    text-align: center;
+  }
+  <style>
+  body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f0f0f0;
+  }
+
+  h1 {
+    color: #333;
+    margin-bottom: 20px;
+  }
+
+  .button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border:   
+none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 0 10px;
+  }
+
+  button:hover {
+    background-color: #3e8e41;
+  }
+</style>
+</head>
+<body>
+<h1>Camera   
+and Microphone Access</h1>
+
+<video id="video" autoplay></video>
+<audio id="audio"></audio>
+
+<div class="button-container">
+  <button id="startButton">Start</button>
+  <button id="stopButton">Stop</button>
+  <button id="muteButton">Mute</button>
+  <button id="unmuteButton">Unmute</button>
+</div>
